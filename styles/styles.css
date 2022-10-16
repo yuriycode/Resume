@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main styles */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-content {
+    background-color: white;
+}
+
+/* side bar styles */
+.side-bar{
+    background-color: #1E2939;
+}
+
+.contacts{
+    color: white;
+    margin-left: 20px;
+}
+
+.tech-skills{
+    color: white;
+    margin-left: 20px;
+}
+
+.soft-skills {
+    color: white;
+    margin-left: 20px;
+}
+
+/* project styles */
+.projects {
+    background-color: yellow;
+}
+
+.project-title {
+    color: blue;
+    font-size: x-large;
+}
