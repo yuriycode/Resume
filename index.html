@@ -1,166 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Resume - Yuriy Kravets</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!--Main-->
     <div class="main">
-
-    <!--Main content-->
-    <div class="main-content">
-
+      <!--Main content-->
+      <div class="main-content">
         <!--about employee-->
         <div class="about">
+          <h2 class="about-position">Android Developer</h2>
 
-            <h2> Android Developer </h2>
+          <h1 class="about-name">Yuriy Kravets</h1>
 
-            <h1> Yuriy Kravets </h1>
-
-            <p> I'm Yuriy Kravets - Mobile developer with more than 6 months experience in Android development.
-                While studying i developed 2 large pet projects of my own and everyday i try to grow up with my skills and knowledge. </p>
-
+          <p class="about-description">
+            I'm Yuriy Kravets - Mobile developer with more than 6 months
+            experience in Android development. While studying i developed 2
+            large pet projects of my own and everyday i try to grow up with my
+            skills and knowledge.
+          </p>
         </div>
 
         <!--Projects-->
         <div class="projects">
-            <h3 class="project-title">
-                Projects</h3>
+          <h3 class="title">Projects</h3>
 
-            <ol>
+          <ol class="projects-list">
+            <li class="project-item">
+                <span class="project">
+                    <a href="https://play.google.com/store/apps/details?id=com.yuriycode.moviesapp" class="project-link"
+                >Movies Partition - Google Play Store</a
+              >
+              ........... 
+              <span class="project-bracket">[</span> Jetpack Compose, REST-API, Retrofit, Kotlin
+              Coroutines, Dagger-Hilt, Kotlin <span class="project-bracket">]</span>
+                </span>
 
-            <li>
-                <a href="https://play.google.com/store/apps/details?id=com.yuriycode.moviesapp">Movies Partition - Google Play Store</a>
-                ...........
-                [ Jetpack Compose, REST-API, Retrofit, Kotlin Coroutines, Dagger-Hilt, Kotlin ]
             </li>
-            <li>
-                <a href="https://github.com/yuriycode/ActualNewsApp">Actual News App</a>
-                ..........................................
-                [ XML, REST-API, Room, Retrofit, Navigation Component, LiveData, Android Sdk, Kotlin ]
+            <li class="project-item">
+                <span class="project">
+              <a href="https://github.com/yuriycode/ActualNewsApp" class="project-link" 
+                >Actual News App</a
+              >
+              ..........................................
+              <span class="project-bracket">[</span> XML, REST-API, Room,
+              Retrofit, Navigation Component, LiveData, Android Sdk, Kotlin <span class="project-bracket">]</span>
+            </span>
+        
             </li>
-
-            </ol>
-
+          </ol>
         </div>
-
 
         <!--Work experience-->
         <div class="work experience">
-            <h3>Work Experience</h3>
-            <!--First place of work-->
-            <div>
-            <h4>Android Developer Freelance</h4>
-            <p>February 2022 - July 2022 | Ukraine</p>
-                <ul>
+          <h3 class="title">Work Experience</h3>
+          <!--First place of work-->
+          <div>
+            <h4 class="work-position">Android Developer <span class="organization">Freelance</span></h4>
+            <p class="period">February 2022 - July 2022 <span class="line">|</span> Ukraine</p>
+            <ul class="work-list">
+              <li class="work-list-item">
+                Worked with Designers, Product Manager, QA specialists - created
+                useful applications
+              </li>
+              <li class="work-list-item">
+                Started on project from zero to a big application with MVVM
+                architecture
+              </li>
+              <li class="work-list-item">
+                Everyday reported about my progress on project, communication
+                with customer
+              </li>
+              <li class="work-list-item">Finally released app on Play Store</li>
+            </ul>
+          </div>
+          <!--Second place of work-->
+          <div>
+            <h4 class="work-position">Android Developer Trainee <span class="organization">NDA</span></h4>
+            <p class="period">July 2022 - up to now <span class="line">|</span> Ukraine</p>
+            <ul class="work-list">
+              <li class="work-list-item">Working with Trello for project tasks</li>
+              <li class="work-list-item">Working on features for company projects</li>
+              <li class="work-list-item">
+                Attending Daily meetings, Technical meetings and another fine
+                activities
+              </li>
+              <li class="work-list-item">Improving my skills in Android development area</li>
+            </ul>
+          </div>
 
-                    <li>Worked with Designers, Product Manager, QA specialists - created useful applications</li>
-                    <li>Started on project from zero to a big application with MVVM architecture</li>
-                    <li>Everyday reported about my progress on project, communication with customer</li>
-                    <li>Finally released app on Play Store</li>
-
-                </ul>
-            </div>
-            <!--Second place of work-->
-            <div>
-            <h4>Android Developer Trainee</h4>
-            <p>July 2022 -  up to now</p>
-                <ul>
-                    <li>Working with Trello for project tasks</li>
-                    <li>Working on features for company projects</li>
-                    <li>Attending Daily meetings, Technical meetings and another fine activities</li>
-                    <li>Improving my skills in Android development area</li>
-
-                </ul>
-            </div>
-
-            <!--Third place of work-->
-            <div>
-
-                <h4>Marketing Manager</h4>
-                <p>August 2021 - February 2022</p>
-                <ul>
-                    <li>Implementation advertising and SMM for enterpeneurs</li>
-                    <li>Communication with different type of businessmen</li>
-                    <li>Creating creatives with Figma</li>
-                </ul>
-
-            </div>
-            
+          <!--Third place of work-->
+          <div>
+            <h4 class="work-position">Marketing Manager <span class="organization">Growth Marketing</span></h4>
+            <p  class="period">August 2021 - February 2022 <span class="line">|</span> Ukraine</p>
+            <ul class="work-list">
+              <li class="work-list-item">Implementation advertising and SMM for enterpeneurs</li>
+              <li class="work-list-item">Communication with different type of businessmen</li>
+              <li class="work-list-item">Creating creatives with Figma</li>
+            </ul>
+          </div>
         </div>
 
         <!--Education-->
         <div class="education">
-            <h3>Education</h3>
-            <h4>Vinnytsia College of National University of Food Technologies</h4>
-            <h5>Computer Engineering</h5>
-            <p>June 2019 - June 2023</p>
+          <h3 class="education-title">Education</h3>
+          <h4 class="education-university">Vinnytsia College of National University of Food Technologies</h4>
+          <h3 class="education-faculty">Computer Engineering</h5>
+          <p class="education-period">June 2019 - June 2023 <span class="line">|</span> Ukraine</p>
         </div>
+      </div>
 
-        
-    </div>
-
-    <!--Side bar-->
-    <aside class="side-bar">
-
+      <!--Side bar-->
+      <aside class="side-bar">
         <!--Image-->
-        <img src="img/resume_photo.jpg" alt="user photo" class="photo"
-        height="320dp", width="300dp">
+        <img
+          src="img/resume_photo.jpg"
+          alt="user photo"
+          class="photo"
+          height="320dp"
+          ,
+          width="300dp"
+        />
 
         <!--Contacts-->
         <div class="contacts">
-            <h3>Contacts</h3>
-        
-            <div>
-                <p>
-                    <span class="contact-type"> C:</span>
-                    <a href="tel:+380635910516" class="contact-link">+380 63 591 0516</a>
-                </p>
+          <h3>Contacts</h3>
 
-                <p>
-                    <span class="contact-type"> E:</span>
-                    <a href="mailto:zoidthe311@gmail.com" class="contact-link">zoidthe311@gmail.com</a>
-                </p>
+          <div>
+            <p>
+              <span class="contact-type"> C:</span>
+              <a href="tel:+380635910516" class="contact-link"
+                >+380 63 591 0516</a
+              >
+            </p>
 
-            </div>
+            <p>
+              <span class="contact-type"> E:</span>
+              <a href="mailto:zoidthe311@gmail.com" class="contact-link"
+                >zoidthe311@gmail.com</a
+              >
+            </p>
+          </div>
         </div>
 
         <!--Tech skills-->
         <div class="tech-skills">
-        <h3>Tech Skills</h3>
-        <ul class="tech-skills-list">
-            <li class="tech-skills-item"><span class="tech-skills-txt">Sdk</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-txt">Kotlin/Java</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-txt">Retrofit/API/Json</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-txt">Coroutines/RxJava</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-txt">Architecture/OOP</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-txt">Dependency Injection</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-txt">Room</span></li>
-        </ul>
-    </div>
+          <h3>Tech Skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-txt">Sdk</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-txt">Kotlin/Java</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-txt">Retrofit/API/Json</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-txt">Coroutines/RxJava</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-txt">Architecture/OOP</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-txt">Dependency Injection</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-txt">Room</span>
+            </li>
+          </ul>
+        </div>
 
         <!--Soft skills-->
         <div class="soft-skills">
-        <h3>Soft Skills</h3>
-        <ul class="soft-skills-list">
-            <li class="soft-skills-item"><span class="soft-skills-txt">Communication</span></li>
-            <li class="soft-skills-item"><span class="soft-skills-txt">Loyalty</span></li>
-            <li class="soft-skills-item"><span class="soft-skills-txt">Corporate culture</span></li>
-            <li class="soft-skills-item"><span class="soft-skills-txt">Stress resistant</span></li>
-        </ul>
+          <h3>Soft Skills</h3>
+          <ul class="soft-skills-list">
+            <li class="soft-skills-item">
+              <span class="soft-skills-txt">Communication</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-txt">Loyalty</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-txt">Corporate culture</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-txt">Stress resistant</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
     </div>
-    </aside>
-
-
-    </div>
-
-</body>
+  </body>
 </html>
