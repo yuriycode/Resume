@@ -235,11 +235,12 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+}
 
 /*education styles*/
 
-.education {
-  padding-top: 50px;
+.education{
+  padding-top: 20px;
 }
 
 .education-title {
